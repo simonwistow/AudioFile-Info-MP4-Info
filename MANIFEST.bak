@@ -1,0 +1,7 @@
+Build.PL
+lib/AudioFile/Info/Build.pm
+lib/AudioFile/Info/MP4/Info.pm
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+try
