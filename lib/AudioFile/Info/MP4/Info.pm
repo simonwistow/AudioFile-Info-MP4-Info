@@ -24,7 +24,7 @@ use Carp;
 
 use MP4::Info;
 
-our $VERSION = "0.5";
+our $VERSION = "0.6";
 
 my %data = (artist => ['ART',      'ARTIST'],
             title  => ['NAM',      'TITLE'],
