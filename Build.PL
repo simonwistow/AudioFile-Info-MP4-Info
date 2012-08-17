@@ -10,10 +10,9 @@ my $b = AudioFile::Info::Build->new(module_name => $module,
                                                  AudioFile::Info => 0,
                                                  MP4::Info        => 0,
                                                 },
-                                    build_requires => {
-                                                 Module::Build   => 0
-                                                },
-                                    create_makefile_pl => 'passthrough',
+                                    build_requires     => { Module::Build   => 0.38 },
+				    configure_requires => { 'Module::Build' => 0.38 },
+                                    create_makefile_pl => 'small',
                                    );
 
 $b->create_build_script;
